@@ -58,11 +58,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link as={Link} to="/project" onClick={() => setExpand(false)}>
-                <AiOutlineFundProjectionScreen className="nav-icon" /> Projects
-              </Nav.Link>
-            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={Link} to="/resume" onClick={() => setExpand(false)}>
